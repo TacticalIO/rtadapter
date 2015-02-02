@@ -1,0 +1,24 @@
+{
+  "name": "rtadapter",
+  "version": "0.0.1",
+  "description": "Runtime adapter for standard single entry point synch or asynch behaviors ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TacticalIO/rtadapter.git"
+  },
+  "keywords": [
+    "C++",
+    "runtime",
+    "adapter"
+  ],
+  "author": "V. Andritoiu",
+  "license": "Commons Attribution-NonCommercial-ShareAlike 4.0 International License.",
+  "bugs": {
+    "url": "https://github.com/TacticalIO/rtadapter/issues"
+  },
+  "homepage": "https://github.com/TacticalIO/rtadapter"
+}
