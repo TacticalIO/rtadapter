@@ -29,9 +29,9 @@ CFLAGS_CC_Debug := \
 	-fno-exceptions
 
 INCS_Debug := \
-	-I/home/vandrito/.node-gyp/0.10.35/src \
-	-I/home/vandrito/.node-gyp/0.10.35/deps/uv/include \
-	-I/home/vandrito/.node-gyp/0.10.35/deps/v8/include \
+	-I/home/vandrito/.node-gyp/0.10.36/src \
+	-I/home/vandrito/.node-gyp/0.10.36/deps/uv/include \
+	-I/home/vandrito/.node-gyp/0.10.36/deps/v8/include \
 	-I$(srcdir)/node_modules/nan
 
 DEFS_Release := \
@@ -61,9 +61,9 @@ CFLAGS_CC_Release := \
 	-fno-exceptions
 
 INCS_Release := \
-	-I/home/vandrito/.node-gyp/0.10.35/src \
-	-I/home/vandrito/.node-gyp/0.10.35/deps/uv/include \
-	-I/home/vandrito/.node-gyp/0.10.35/deps/v8/include \
+	-I/home/vandrito/.node-gyp/0.10.36/src \
+	-I/home/vandrito/.node-gyp/0.10.36/deps/uv/include \
+	-I/home/vandrito/.node-gyp/0.10.36/deps/v8/include \
 	-I$(srcdir)/node_modules/nan
 
 OBJS := \

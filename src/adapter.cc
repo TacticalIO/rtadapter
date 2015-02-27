@@ -22,6 +22,9 @@ void InitAll(Handle<Object> exports) {
 
   exports->Set(NanNew<String>("resume"),
     NanNew<FunctionTemplate>(Resume)->GetFunction());
+
+  exports->Set(NanNew<String>("destroy"),
+    NanNew<FunctionTemplate>(Destroy)->GetFunction());
 }
 
 NODE_MODULE(adapter, InitAll)

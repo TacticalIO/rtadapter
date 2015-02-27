@@ -316,8 +316,8 @@ ifeq ($(strip $(foreach prefix,$(NO_LOAD),\
 endif
 
 quiet_cmd_regen_makefile = ACTION Regenerating $@
-cmd_regen_makefile = cd $(srcdir); /home/vandrito/.nvm/v0.10.35/lib/node_modules/node-gyp/gyp/gyp_main.py -fmake --ignore-environment "--toplevel-dir=." -I/home/vandrito/Documents/Projets/TacticalIO/rtadapter/build/config.gypi -I/home/vandrito/.nvm/v0.10.35/lib/node_modules/node-gyp/addon.gypi -I/home/vandrito/.node-gyp/0.10.35/common.gypi "--depth=." "-Goutput_dir=." "--generator-output=build" "-Dlibrary=shared_library" "-Dvisibility=default" "-Dnode_root_dir=/home/vandrito/.node-gyp/0.10.35" "-Dmodule_root_dir=/home/vandrito/Documents/Projets/TacticalIO/rtadapter" binding.gyp
-Makefile: $(srcdir)/../../../../.node-gyp/0.10.35/common.gypi $(srcdir)/../../../../.nvm/v0.10.35/lib/node_modules/node-gyp/addon.gypi $(srcdir)/build/config.gypi $(srcdir)/binding.gyp
+cmd_regen_makefile = cd $(srcdir); /home/vandrito/.nvm/v0.10.36/lib/node_modules/node-gyp/gyp/gyp_main.py -fmake --ignore-environment "--toplevel-dir=." -I/home/vandrito/Documents/Projets/TacticalIO/rtadapter/build/config.gypi -I/home/vandrito/.nvm/v0.10.36/lib/node_modules/node-gyp/addon.gypi -I/home/vandrito/.node-gyp/0.10.36/common.gypi "--depth=." "-Goutput_dir=." "--generator-output=build" "-Dlibrary=shared_library" "-Dvisibility=default" "-Dnode_root_dir=/home/vandrito/.node-gyp/0.10.36" "-Dmodule_root_dir=/home/vandrito/Documents/Projets/TacticalIO/rtadapter" binding.gyp
+Makefile: $(srcdir)/../../../../.node-gyp/0.10.36/common.gypi $(srcdir)/build/config.gypi $(srcdir)/binding.gyp $(srcdir)/../../../../.nvm/v0.10.36/lib/node_modules/node-gyp/addon.gypi
 	$(call do_cmd,regen_makefile)
 
 # "all" is a concatenation of the "all" targets from all the included

@@ -1,21 +1,22 @@
+#include "app.h"
 #include <stdio.h>
 
-void init(char* name) {
-	printf("init %s\n", name);
+void Tio::App::init() {
+	printf("init %s\n", name.c_str());
 }
 
-void start(char* name) {
-	printf("start %s\n", name);
+void Tio::App::start() {
+	printf("start %s\n", name.c_str());
 }
 
-void stop(char* name) {
-	printf("stop %s\n", name);
+void Tio::App::stop() {
+	printf("stop %s\n", name.c_str());
 }
 
-void pause(char* name) {
-	printf("pause %s\n", name);
+void Tio::App::pause() {
+	printf("pause %s\n", name.c_str());
 }
 
-void resume(char* name) {
-	printf("resume %s\n", name);
+void Tio::App::resume() {
+	printf("resume %s\n", name.c_str());
 }

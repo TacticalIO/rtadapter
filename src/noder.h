@@ -7,3 +7,4 @@ NAN_METHOD(Start);
 NAN_METHOD(Stop);
 NAN_METHOD(Pause);
 NAN_METHOD(Resume);
+NAN_METHOD(Destroy);
