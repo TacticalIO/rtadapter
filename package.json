@@ -23,7 +23,10 @@
   },
   "homepage": "https://github.com/TacticalIO/rtadapter",
   "dependencies": {
-    "nan": "^1.6.1"
+    "debug": "^2.1.2",
+    "ffi": "^1.2.7",
+    "nan": "^1.6.1",
+    "tio": "git://github.com/TacticalIO/TacticalIO"
   },
   "gypfile": true
 }

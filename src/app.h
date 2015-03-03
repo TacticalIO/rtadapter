@@ -1,4 +1,5 @@
-#ifndef APP_TEMPLATE_H
+#ifndef __APP_TEMPLATE_H__
+#define __APP_TEMPLATE_H__
 
 #include "datasyncgateway.h"
 #include <string>

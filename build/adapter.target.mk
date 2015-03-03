@@ -69,7 +69,8 @@ INCS_Release := \
 OBJS := \
 	$(obj).target/$(TARGET)/src/adapter.o \
 	$(obj).target/$(TARGET)/src/app.o \
-	$(obj).target/$(TARGET)/src/noder.o
+	$(obj).target/$(TARGET)/src/noder.o \
+	$(obj).target/$(TARGET)/src/datasyncgateway.o
 
 # Add to the list of files we specially track dependencies for.
 all_deps += $(OBJS)

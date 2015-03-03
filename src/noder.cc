@@ -4,6 +4,7 @@
 #include <string>
 
 #include "noder.h"
+#include "datasyncgateway.h"
 #include "app.h"
 
 using v8::Number;

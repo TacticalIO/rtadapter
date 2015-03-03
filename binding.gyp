@@ -30,6 +30,7 @@
             "src/adapter.cc"
           , "src/app.cc"
           , "src/noder.cc"
+          , "src/datasyncgateway.cc"
         ]
     }]
 }
