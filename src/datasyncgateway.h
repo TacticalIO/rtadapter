@@ -34,7 +34,7 @@ namespace Tio {
 		std::string getString(std::string name);
 		
 	private:
-		v8::Handle<v8::Object> _ds;
+		v8::Local<v8::Object> _ds;
 	};
 }
 
